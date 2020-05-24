@@ -1,0 +1,70 @@
+@import url(./__image/place__image.css);
+@import url(./__link/place__link.css);
+@import url(./__article/place__article.css);
+@import url(./__paragraph/place__paragraph.css);
+@import url(./__title/place__title.css);
+@import url(./__url-heading/place__url-heading.css);
+@import url(./__website/place__website.css);
+
+
+.place {
+    max-width: 984px;
+    display: grid;
+    grid-template-columns: minmax(320px, 460px) minmax(288px, 524px);
+    margin: 0 auto 92px;
+}
+
+/*расстрояние до cover*/
+
+@media (max-width: 1024px) {
+    .place {
+        margin: 0 0 80px;
+    }
+    .place:last-of-type {
+        margin: 0 0 92px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 920px) {
+    .place {
+        margin: 0 20px 76px;
+    }
+    .place:last-of-type {
+        margin: 0 20px 90px;
+    }
+}
+
+@media (max-width: 768px) {
+    .place {
+        margin: 0 0 72px;
+    }
+    .place:last-of-type {
+        margin: 0 0 88px;
+    }
+}
+
+
+
+@media (min-width: 321px) and (max-width: 710px) {
+    .place {
+        grid-template-columns: 1fr;
+        margin: 0 20px 20px;
+    }
+    .place:last-of-type {
+        margin: 0 20px 76px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .place {
+        grid-template-columns: 1fr;
+        margin: 0 0 48px;
+    }
+    .place:last-of-type {
+        grid-template-columns: 1fr;
+        margin: 0 0 64px;
+    }
+  
+}
+
