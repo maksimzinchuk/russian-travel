@@ -10,48 +10,51 @@
 .place {
     max-width: 984px;
     display: grid;
-    grid-template-columns: minmax(320px, 460px) minmax(288px, 524px);
-    margin: 0 auto 92px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 48px;
+    margin-bottom: 80px; 
+}
+/*Расстрояние до cover*/
+.place:last-of-type {
+    margin-bottom: 92px; 
 }
 
-/*расстрояние до cover*/
+
+/*расстрояние между блоками и расстрояние до cover*/
 
 @media (max-width: 1024px) {
     .place {
-        margin: 0 0 80px;
-    }
-    .place:last-of-type {
-        margin: 0 0 92px;
+        margin-bottom: 80px;
     }
 }
+
 
 @media (min-width: 767px) and (max-width: 920px) {
     .place {
-        margin: 0 20px 76px;
-    }
-    .place:last-of-type {
-        margin: 0 20px 90px;
+        margin-bottom: 76px;
     }
 }
+
 
 @media (max-width: 768px) {
     .place {
-        margin: 0 0 72px;
-    }
+        margin-bottom: 72px;
+        column-gap: 28px;
+    } 
     .place:last-of-type {
-        margin: 0 0 88px;
+        margin-bottom: 88px;
     }
 }
-
 
 
 @media (min-width: 321px) and (max-width: 710px) {
     .place {
         grid-template-columns: 1fr;
-        margin: 0 20px 48px;
+        margin-bottom: 60px;
     }
     .place:last-of-type {
-        margin: 0 20px 76px;
+        margin-bottom: 76px;
     }
 }
 
@@ -59,12 +62,11 @@
 @media (max-width: 320px) {
     .place {
         grid-template-columns: 1fr;
-        margin: 0 0 48px;
+        row-gap: 32px;
+        margin-bottom: 48px;
     }
     .place:last-of-type {
-        grid-template-columns: 1fr;
-        margin: 0 0 64px;
+        margin-bottom: 64px;
     }
-  
 }
 

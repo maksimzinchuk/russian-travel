@@ -5,6 +5,7 @@
      display: grid;
      grid-template-columns: repeat(4, auto);
      grid-gap: 16px;
+     margin-bottom: 92px;
    
 }
 
@@ -21,6 +22,7 @@
         padding: 0 24px;
         grid-gap: 16px;
         grid-template-columns: repeat(2, auto);
+        margin-bottom: 88px;
     }
  }
 
@@ -29,5 +31,6 @@
         padding: 0 16px;
         grid-gap: 12px;
         grid-template-columns: repeat(1, auto);
+        margin-bottom: 64x;
     }
  }

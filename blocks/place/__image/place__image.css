@@ -7,7 +7,6 @@
 @media (max-width: 1024px) {
     .place__image {
        width: 440px;
-       height: auto; 
     }
 }
 
@@ -15,7 +14,6 @@
 @media (min-width: 321px) and (max-width: 920px) {
     .place__image {
         width: 100%;
-        height: auto;
     }
 }
 
@@ -23,15 +21,12 @@
 @media (max-width: 768px) {
     .place__image {
         width: 340px;
-        height: auto; 
     }
 }
 
 @media (min-width: 321px) and (max-width: 710px) {
     .place__image {
-        max-width: 690px;
         width: 100%;
-        height: auto; 
     }
 }
 
@@ -40,6 +35,5 @@
 @media (max-width: 320px) {
     .place__image {
        width: 320px;
-       height: auto; 
     }
 }
