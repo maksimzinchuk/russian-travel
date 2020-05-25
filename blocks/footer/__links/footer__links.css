@@ -17,3 +17,9 @@
     
 }
 }
+
+@media (min-width: 321px) and (max-width: 710px) {
+    .footer__links { 
+        padding-right: 48px;
+    }
+}
