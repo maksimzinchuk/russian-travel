@@ -17,6 +17,12 @@
       margin: 88px auto;
     }
   }
+
+  @media (min-width: 321px) and (max-width: 710px) {
+    .places {
+      margin: 64px auto;
+    }
+  }
   
   @media (max-width: 320px) {
     .places {
