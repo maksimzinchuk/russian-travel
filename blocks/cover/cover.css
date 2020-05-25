@@ -31,6 +31,12 @@
     }
 }
 
+@media (min-width: 321px) and (max-width: 710px) {
+    .cover {
+        margin: 0 0 64px;
+    }
+}
+
 @media (max-width: 320px) {
     .cover {
         margin: 0 0 64px;
