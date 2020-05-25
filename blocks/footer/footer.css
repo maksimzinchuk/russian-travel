@@ -12,6 +12,11 @@
     flex-wrap: wrap;
 }
 
+@media (min-width: 321px) and (max-width: 740px) {
+    .footer {
+        margin-left: 16px;
+    }
+}
 
 @media (max-width: 320px) {
     .footer {

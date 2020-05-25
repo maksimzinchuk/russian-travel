@@ -9,6 +9,14 @@
     
 }
 
+
+@media (min-width: 321px) and (max-width: 740px) {
+    .footer__copyright {
+        margin-left: 48px;
+    }
+}
+
+
 @media (max-width: 320px) {
     .footer__copyright {
         font-size: 14px;
