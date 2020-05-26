@@ -14,7 +14,7 @@
     .place__title {
         font-size: 7.03125vw;
         line-height: 7.421875vw;
-        
+        max-width: 440px;
     }
  }
 
@@ -22,6 +22,7 @@
     .place__title {
         font-size: 42px;
         line-height: 1.095;
+        max-width: 340px;
     }
  }
 
@@ -31,5 +32,6 @@
         font-size: 32px;
        line-height: 1.09;
        margin-left: 16px;
+       max-width: 288px;
     }
  }

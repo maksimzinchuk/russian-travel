@@ -10,7 +10,7 @@
 .place {
     max-width: 984px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(320px, 460px) minmax(288px, 484px);
     column-gap: 40px;
     row-gap: 48px;
     margin-bottom: 80px; 
@@ -26,8 +26,10 @@
 @media (max-width: 1024px) {
     .place {
         margin-bottom: 80px;
+        
     }
 }
+
 
 
 @media (min-width: 767px) and (max-width: 920px) {
@@ -41,6 +43,7 @@
     .place {
         margin-bottom: 72px;
         column-gap: 28px;
+        
     } 
     .place:last-of-type {
         margin-bottom: 88px;

@@ -4,36 +4,3 @@
     object-fit: cover;
 }
 
-@media (max-width: 1024px) {
-    .place__image {
-       width: 440px;
-    }
-}
-
-
-@media (min-width: 321px) and (max-width: 920px) {
-    .place__image {
-        width: 100%;
-    }
-}
-
-
-@media (max-width: 768px) {
-    .place__image {
-        width: 340px;
-    }
-}
-
-@media (min-width: 321px) and (max-width: 710px) {
-    .place__image {
-        width: 100%;
-    }
-}
-
-
-
-@media (max-width: 320px) {
-    .place__image {
-       width: 320px;
-    }
-}
